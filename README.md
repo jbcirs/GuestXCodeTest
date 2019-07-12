@@ -46,12 +46,12 @@ more than X vowels for Y words in every Z line</p>
 <p>**Language:** Code this using Javascript and build a quick UI with a text box</p>
 
 <p>**Example:**</p>
-</p>Example Parameter: Words: count every [ 3 ] words, Count words with: [2] or more vowels ,
+</p>Example Parameter: Words: count every [ 3 ] words, Count words with: [2] or more vowels,
 every [2] lines</p>
 
 <p><img src="https://github.com/jbcirs/GuestXCodeTest/VowelsForWords/question4ExampleOutput.jpg" alt="Question 4 Example Output"><p>
 
-<p>**Result:** Red is a non-match</br>
+<p>**Result: ** Red is a non-match</br>
 Bold is a match</br>
 Grey are non-considered lines)</p>
 <p>**Screen Output:**</p>
