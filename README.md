@@ -33,6 +33,7 @@ would represent the guitar , the bass in its commonality and its differences.</p
 duplicate, but there might be more. For example, if N=3, your list might be 3, 1, 1, 3 or it might
 be 1, 3, 2, 2. Print out a number that appears in the list more than once. (That is, in the first
 example, you can print '1' or '3' -- you don't have to print both.)</p>
+
 <p>Program Input: A list of numbers between 0 and N, all integers, comma separated.</p>
 <p>Program Output: A list of all numbers that are duplicated in the list.</p>
 
@@ -43,17 +44,17 @@ example, you can print '1' or '3' -- you don't have to print both.)</p>
 <p>Develop a javascript / browser application that will count the number of words & lines that have
 more than X vowels for Y words in every Z line</p>
 
-<p>**Language:** Code this using Javascript and build a quick UI with a text box</p>
+**Language:** Code this using Javascript and build a quick UI with a text box
 
-<p>**Example:**</p>
+**Example:**
 </p>Example Parameter: Words: count every [ 3 ] words, Count words with: [2] or more vowels,
 every [2] lines</p>
 
 <p><img src="https://github.com/jbcirs/GuestXCodeTest/VowelsForWords/question4ExampleOutput.jpg" alt="Question 4 Example Output"><p>
 
-<p>__ Result:__  Red is a non-match</br>
-Bold is a match</br>
-Grey are non-considered lines)</p>
+__ Result:__  Red is a non-match
+Bold is a match
+Grey are non-considered lines)
 <p>**Screen Output:**</p>
 <p>Results: Lines: 4, words: 6</p>
 
