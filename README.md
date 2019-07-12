@@ -37,7 +37,7 @@ example, you can print '1' or '3' -- you don't have to print both.)</p>
 <p>Program Input: A list of numbers between 0 and N, all integers, comma separated.</p>
 <p>Program Output: A list of all numbers that are duplicated in the list.</p>
 
-- Please reference the nPlusOne folder.
+- Run the project and navigate to  nPlusOne.
 
 
 ## Question 4
@@ -58,7 +58,7 @@ Grey are non-considered lines)
 **Screen Output:**
 Results: Lines: 4, words: 6
 
-- Please reference the VowelsForWords folder.
+- Run the project and navigate to VowelsForWords.
 
 
 ## Question 5
@@ -80,5 +80,5 @@ current reserves, daily extraction, and forecasting of when wells will run dry.
 
 The visualization does not have to be dynamic or functional; a static layout is fine.
 
-- Please reference the OilAndGasClient folder.
+- Run the project and navigate to OilAndGasClient.
 
