@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "Vowels For Words";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <h2>@ViewData["Title"]</h2>
+</div>
+<div class="row">
+    <div class="col-8">
+        <div class="form-group">
+            <label for="input">Input</label>
+            <textarea class="form-control" rows="8" id="input">
+I pledge allegiance to the Flag of the United States of America, 
+and to the Republic for which it stands, one Nation under God,  
+indivisible, with liberty and justice for all, should be rendered 
+by standing at attention facing the flag with the right hand over  
+the heart. When not in uniform men should remove any non‐religious  
+headdress with their right hand and hold it at the left shoulder,  
+the hand being over the heart. Persons in uniform should remain  
+silent, face the flag, and render the military salute. 
+</textarea>
+            <button type="submit" class="btn btn-primary float-right" id="submit">Submit</button>
+        </div>
+    </div>
+
+    </div>
+    <div class="row pt-2" id="results">
+        <p><b>Results:</b> Lines: <label id="lines">-</label> Words: <label id="words">-</label></p>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#results').hide();
+
+            $("#submit").click(function () {
+                var nVowels = 2;
+                var nWords = 3;
+                var nLines = 2;
+                var cLines = 0;
+                var cWords = 0;
+
+                var lines = $('#input').val().toUpperCase().split('\n');
+                $.each(lines, function (index, line) {
+                    if (line.length > 0 && ((index + 1) % nLines) == 0) {
+                        debugger;
+                        var lWords = line.trim().split(' ');
+                        var run = 0;
+                        $.each(lWords, function (index, word) {
+                            if (((index + 1) % nWords) == 0 && vowelCount(word.trim()) >= nVowels) {
+                                cWords++;
+                                if (run == 0) {
+                                    cLines++;
+                                    run = 1;
+                                }
+                            }
+                        });
+                    }
+                });
+
+                $("#lines").text(cLines);
+                $("#words").text(cWords);
+                $('#results').show();
+            });
+        });
+
+        function vowelCount(word) {
+            var vowelsCount = 0
+            word.split('').forEach(function (v) {
+                if (v == 'A' || v == 'E' || v == 'I' || v == 'O' || v == 'U') {
+                    vowelsCount++;
+                }
+            });
+            return vowelsCount;
+        }
+    </script>
