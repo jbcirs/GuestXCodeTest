@@ -50,13 +50,13 @@ more than X vowels for Y words in every Z line</p>
 </p>Example Parameter: Words: count every [ 3 ] words, Count words with: [2] or more vowels,
 every [2] lines</p>
 
-<p><img src="https://github.com/jbcirs/GuestXCodeTest/VowelsForWords/question4ExampleOutput.jpg" alt="Question 4 Example Output"><p>
+<img src="https://github.com/jbcirs/GuestXCodeTest/VowelsForWords/question4ExampleOutput.jpg" alt="Question 4 Example Output">
 
-__ Result:__  Red is a non-match
+**Result:** Red is a non-match
 Bold is a match
 Grey are non-considered lines)
-<p>**Screen Output:**</p>
-<p>Results: Lines: 4, words: 6</p>
+**Screen Output:**
+Results: Lines: 4, words: 6
 
 - Please reference the VowelsForWords folder.
 
@@ -76,7 +76,7 @@ b) Using the sample / test data and data model you created in 5, create sample
 visualizations using bootstrap / javascript / css that will allow our client to quickly see
 current reserves, daily extraction, and forecasting of when wells will run dry.
 
-<p>The visualization does not have to be dynamic or functional; a static layout is fine.</p>
+The visualization does not have to be dynamic or functional; a static layout is fine.
 
 - Please reference the OilAndGasClient folder.
 
