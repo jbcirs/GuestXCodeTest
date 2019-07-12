@@ -19,8 +19,8 @@ but they will realy only slow down a user not stop them.
 (standard tuning, only the first 3 frets) in a class structure. Create attributes, elements, functions
 and any other components you feel they may have.</p>
 
-- Consider where they are similar and where they are different.
-- Consider we want to identify if the note from one is equal to the other based on the fret
+1. Consider where they are similar and where they are different.
+2. Consider we want to identify if the note from one is equal to the other based on the fret
 position and string played.
 
 <p>Please note this doesn’t need to be an executable application , only a collection of classes that
@@ -51,7 +51,7 @@ every [2] lines</p>
 
 <p><img src="https://github.com/jbcirs/GuestXCodeTest/VowelsForWords/question4ExampleOutput.jpg" alt="Question 4 Example Output"><p>
 
-<p>**Result: ** Red is a non-match</br>
+<p>__ Result:__  Red is a non-match</br>
 Bold is a match</br>
 Grey are non-considered lines)</p>
 <p>**Screen Output:**</p>
@@ -69,9 +69,9 @@ and gas engineers and they can determine the reserves before any drilling starts
 equipment operates, the natural resources are extracted and sent to be refined. Our client will
 provide the data similar to the tables below.</p>
 
-- Model this data using your favorite modeling tool and populate your model with your own
+a) Model this data using your favorite modeling tool and populate your model with your own
 sample/test data.
-- Using the sample / test data and data model you created in 5, create sample
+b) Using the sample / test data and data model you created in 5, create sample
 visualizations using bootstrap / javascript / css that will allow our client to quickly see
 current reserves, daily extraction, and forecasting of when wells will run dry.
 
