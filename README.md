@@ -50,7 +50,7 @@ more than X vowels for Y words in every Z line</p>
 </p>Example Parameter: Words: count every [ 3 ] words, Count words with: [2] or more vowels,
 every [2] lines</p>
 
-<img src="https://github.com/jbcirs/GuestXCodeTest/VowelsForWords/question4ExampleOutput.jpg" alt="Question 4 Example Output">
+<img src="https://github.com/jbcirs/GuestXCodeTest/blob/master/wwwroot/images/question4ExampleOutput.jpg" alt="Question 4 Example Output">
 
 **Result:** Red is a non-match
 Bold is a match
@@ -69,6 +69,8 @@ things like extractors, storage tanks, office buildings, etc. Each well has been
 and gas engineers and they can determine the reserves before any drilling starts. Each day the
 equipment operates, the natural resources are extracted and sent to be refined. Our client will
 provide the data similar to the tables below.</p>
+
+<img src="https://github.com/jbcirs/GuestXCodeTest/blob/master/wwwroot/images/OilAndGasClientQuestion5.jpg" alt="Question 4 Example Output">
 
 a) Model this data using your favorite modeling tool and populate your model with your own
 sample/test data.
