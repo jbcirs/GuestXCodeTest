@@ -74,6 +74,7 @@ provide the data similar to the tables below.</p>
 
 a) Model this data using your favorite modeling tool and populate your model with your own
 sample/test data.
+
 b) Using the sample / test data and data model you created in 5, create sample
 visualizations using bootstrap / javascript / css that will allow our client to quickly see
 current reserves, daily extraction, and forecasting of when wells will run dry.
