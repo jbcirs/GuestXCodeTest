@@ -53,9 +53,9 @@ every [2] lines</p>
 <img src="https://github.com/jbcirs/GuestXCodeTest/blob/master/wwwroot/images/question4ExampleOutput.jpg" alt="Question 4 Example Output">
 
 **Result:** 
--Red is a non-match
--Bold is a match
--Grey are non-considered lines)
+- Red is a non-match
+- Bold is a match
+- Grey are non-considered lines)
 
 **Screen Output:**
 
