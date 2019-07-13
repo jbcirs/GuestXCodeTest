@@ -52,9 +52,10 @@ every [2] lines</p>
 
 <img src="https://github.com/jbcirs/GuestXCodeTest/blob/master/wwwroot/images/question4ExampleOutput.jpg" alt="Question 4 Example Output">
 
-**Result:** Red is a non-match</br>
-Bold is a match</br>
-Grey are non-considered lines)
+**Result:** 
+-Red is a non-match
+-Bold is a match
+-Grey are non-considered lines)
 
 **Screen Output:**
 
