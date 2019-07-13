@@ -3,11 +3,226 @@
     ViewData["Title"] = "Oil And Gas Client";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.2/css/jquery.dataTables.min.css"></style>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
 
-    <div class="row">
-        <h2>@ViewData["Title"]</h2>
-    </div>
-    <div class="row">
-        <img src="~/images/OilAndGasClient.jpg" />
-    </div>
+<div class="row">
+    <h2>@ViewData["Title"]</h2>
+</div>
+<div class="row">
+    <img src="~/images/OilAndGasClient.jpg" />
+</div>
+<div class="row">
+    <h4>Daily Forecast Report</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Site</th>
+                <th scope="col">Well</th>
+                <th scope="col">Current Oil Reserves</th>
+                <th scope="col">Current Natural Gas Reserves</th>
+                <th scope="col">Average Oil Daily Extraction</th>
+                <th scope="col">Average Natural Gas Extraction</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>12770</td>
+                <td>0</td>
+                <td>278</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Bravo</td>
+                <td>23700</td>
+                <td>13650</td>
+                <td>216</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>28825</td>
+                <td>18775</td>
+                <td>196</td>
+                <td>204</td>
+            </tr>
+            <tr>
+                <th scope="row">Numbani</th>
+                <td>Charlie</td>
+                <td>70000</td>
+                <td>12225</td>
+                <td>125</td>
+                <td>68</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="row">
+    <h4>Current Extraction Data</h4>
+    <table class="table" id="CurrentExtractionData">
+        <thead>
+            <tr>
+                <th scope="col">Site</th>
+                <th scope="col">Well</th>
+                <th scope="col">Extraction Date</th>
+                <th scope="col">Oil Extraction Amount</th>
+                <th scope="col">Natural Gas Extraction Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>@System.DateTime.Now.ToString("M/dd/yyyy")</td>
+                <td>250</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>@System.DateTime.Now.AddDays(1).ToString("M/dd/yyyy")</td>
+                <td>300</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>@System.DateTime.Now.AddDays(2).ToString("M/dd/yyyy")</td>
+                <td>275</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>@System.DateTime.Now.AddDays(3).ToString("M/dd/yyyy")</td>
+                <td>250</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>@System.DateTime.Now.AddDays(4).ToString("M/dd/yyyy")</td>
+                <td>300</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Alpha</td>
+                <td>@System.DateTime.Now.AddDays(5).ToString("M/dd/yyyy")</td>
+                <td>280</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.ToString("M/dd/yyyy")</td>
+                <td>175</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(1).ToString("M/dd/yyyy")</td>
+                <td>200</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(2).ToString("M/dd/yyyy")</td>
+                <td>225</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(3).ToString("M/dd/yyyy")</td>
+                <td>250</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th scope="row">Route66</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(4).ToString("M/dd/yyyy")</td>
+                <td>200</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <th scope="row">Numbani</th>
+                <td>Charlie</td>
+                <td>@System.DateTime.Now.ToString("M/dd/yyyy")</td>
+                <td>100</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th scope="row">Numbani</th>
+                <td>Charlie</td>
+                <td>@System.DateTime.Now.AddDays(1).ToString("M/dd/yyyy")</td>
+                <td>125</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <th scope="row">Numbani</th>
+                <td>Charlie</td>
+                <td>@System.DateTime.Now.AddDays(2).ToString("M/dd/yyyy")</td>
+                <td>150</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <th scope="row">Numbani</th>
+                <td>Charlie</td>
+                <td>@System.DateTime.Now.AddDays(3).ToString("M/dd/yyyy")</td>
+                <td>125</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.ToString("M/dd/yyyy")</td>
+                <td>150</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(1).ToString("M/dd/yyyy")</td>
+                <td>200</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(2).ToString("M/dd/yyyy")</td>
+                <td>175</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(3).ToString("M/dd/yyyy")</td>
+                <td>250</td>
+                <td>175</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(4).ToString("M/dd/yyyy")</td>
+                <td>200</td>
+                <td>225</td>
+            </tr>
+            <tr>
+                <th scope="row">Hanamur</th>
+                <td>Bravo</td>
+                <td>@System.DateTime.Now.AddDays(5).ToString("M/dd/yyyy")</td>
+                <td>200</td>
+                <td>225</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
 

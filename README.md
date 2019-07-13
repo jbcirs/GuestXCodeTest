@@ -26,7 +26,7 @@ position and string played.
 <p>Please note this doesn’t need to be an executable application , only a collection of classes that
 would represent the guitar , the bass in its commonality and its differences.</p>
 
-- Please reference the TunningGuitar folder.
+- Please reference the [TunningGuitar](https://github.com/jbcirs/GuestXCodeTest/tree/master/TunningGuitar) folder.
 
 ## Question 3
 <p>Let's say you have a list of N+1 integers between 1 and N. You know there's at least one
@@ -37,7 +37,7 @@ example, you can print '1' or '3' -- you don't have to print both.)</p>
 <p>Program Input: A list of numbers between 0 and N, all integers, comma separated.</p>
 <p>Program Output: A list of all numbers that are duplicated in the list.</p>
 
-- Run the project and navigate to  nPlusOne.
+- Run the project and navigate to nPlusOne.
 
 
 ## Question 4
