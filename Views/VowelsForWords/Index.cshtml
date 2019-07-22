@@ -10,6 +10,18 @@
 <div class="row">
     <div class="col-8">
         <div class="form-group">
+            <label for="exampleFormControlInput1">Number of Vowels</label>
+            <input type="text" class="form-control" id="nVowels" value="2" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Number of Words</label>
+            <input type="text" class="form-control" id="nWords" value="3" required>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Number of Lines</label>
+            <input type="text" class="form-control" id="nLines" value="2" required>
+        </div>
+        <div class="form-group">
             <label for="input">Input</label>
             <textarea class="form-control" rows="8" id="input">
 I pledge allegiance to the Flag of the United States of America, 
@@ -29,5 +41,11 @@ silent, face the flag, and render the military salute.
     <div class="row pt-2" id="results">
         <p><b>Results:</b> Lines: <label id="lines">-</label> Words: <label id="words">-</label></p>
     </div>
+
+    <div class="row pt-2" id="results">
+        <p><b>Python Coding Version</b></p>
+    </div>
+
+    <img src="/images/nPlusOneQuestion3Python.jpg" alt="Python Output">
 
     <script src="~/js/VowelsForWords.js"></script>

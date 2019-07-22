@@ -2,9 +2,9 @@
     $('#results').hide();
 
     $("#submit").click(function () {
-        var nVowels = 2;
-        var nWords = 3;
-        var nLines = 2;
+        var nVowels = $('#nVowels').val();//2;
+        var nWords = $('#nWords').val();//3;
+        var nLines = $('#nLines').val();//2;
         var cLines = 0;
         var cWords = 0;
 

@@ -4,7 +4,7 @@
 
         $.ajax({
             type: "POST",
-            url: '@Url.Action("GetDuplicates", "NPlusOne")?numbers=' + $("#input").val(),
+            url: '/NPlusOne/GetDuplicates?numbers=' + $("#input").val(),
             contentType: "application/json; charset=utf-8",
             success: function (data) {
                 $("#output").text(data.outputValues);
